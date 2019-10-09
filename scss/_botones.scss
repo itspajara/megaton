@@ -1,0 +1,31 @@
+
+.btn-primary {
+    // border: none;
+    @include button-variant($primary, $primary, $dark, $dark, $dark, $dark);
+    &:focus,
+    &.focus {
+        // Avoid using mixin so we can pass custom focus shadow properly
+        @if $enable-shadows {
+            box-shadow: $btn-box-shadow, 0 0 0 $btn-focus-width rgba($primary, .5);
+        } @else {
+            box-shadow: 0 0 0 $btn-focus-width rgba($primary, .5);
+        }
+    }
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active,
+    .show > &.dropdown-toggle {
+        &:focus {
+            // Avoid using mixin so we can pass custom focus shadow properly
+            @if $enable-shadows and $btn-active-box-shadow != none {
+                box-shadow: $btn-active-box-shadow, 0 0 0 $btn-focus-width rgba($primary, .5);
+            } @else {
+                box-shadow: 0 0 0 $btn-focus-width rgba($primary, .5);
+            }
+        }
+    }
+}
+
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
+}

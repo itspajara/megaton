@@ -1,0 +1,74 @@
+
+/*
+$color-secondary: rgba(209, 255, 227, 1);
+$color-secondary: rgba(193, 187, 221, 1);
+*/
+
+/*
+$pinkbird: rgba(255, 205, 205, 1);
+$pinkbird-focus: rgba(255, 205, 205, 0.5);
+$pinkbird-light: rgba(255, 230, 230, .2);
+$pinkbird-dark: rgba(250, 170, 175, 1);
+*/
+
+/*
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+*/
+
+/*
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: $color-dark;
+    color: black;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus,
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: $box-shadow-focus;
+}
+*/
+
+/*
+.btn-primary:not(:disabled):not(.disabled) {
+    &:active {
+        background-color: $color-dark;
+        color: black;
+        &:focus {
+            box-shadow: $box-shadow-focus;
+        }
+    }
+}
+*/
+
+/*
+.btn-primary {
+    color: $black;
+    &:hover {
+        background-color: theme-color("dark");
+        color: $black;
+    }
+    &:focus {
+        box-shadow: $input-btn-focus-box-shadow;
+    }
+    &:not(:disabled):not(.disabled) {
+        &:active {
+            background-color: theme-color("dark");
+            color: $black;
+            &:focus {
+                box-shadow: $input-btn-focus-box-shadow;
+            }
+        }
+    }
+*/
+}

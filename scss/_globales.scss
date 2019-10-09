@@ -1,0 +1,15 @@
+
+header {
+    .sub-brand {
+        font-size: 14px;
+        color: rgba(0, 0, 0, .5);
+    }
+    .header-menu {
+        right: 0;
+        left: auto;
+    }
+    .dropdown-item.active, .dropdown-item:active {
+        color: $black;
+        text-decoration: none;
+    }
+}
