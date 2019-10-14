@@ -1,0 +1,7 @@
+
+@mixin card($size){
+    width: $size;
+    height: $size * 2;
+    border-radius: 10%;
+    @content;
+}
