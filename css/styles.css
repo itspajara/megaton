@@ -9704,6 +9704,14 @@ header .dropdown-item.active, header .dropdown-item:active {
   box-shadow: 0 0 0 0.2rem rgba(255, 205, 205, 0.5);
 }
 
+.navbar-toggler:focus {
+  outline: none;
+  position: relative;
+  box-sizing: content-box;
+  border: 1px solid #faaaaf;
+  border-radius: 0.25rem;
+}
+
 .submit-button {
   display: flex;
   justify-content: flex-end;

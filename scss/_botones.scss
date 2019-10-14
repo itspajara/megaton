@@ -25,6 +25,16 @@
     }
 }
 
+.navbar-toggler {
+    &:focus {
+        outline: none;
+        position: relative;
+        box-sizing: content-box;
+        border: 1px solid $dark;
+        border-radius: 0.25rem;
+    }
+}
+
 .submit-button {
     display: flex;
     justify-content: flex-end;
