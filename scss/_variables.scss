@@ -1,5 +1,5 @@
 
-$pinkbird: #ffcdcd;
+$pinkbird: rgba(255, 205, 205, 1);
 $pinkbird-light: rgba(255, 230, 230, .2);
 $pinkbird-dark: rgba(250, 170, 175, 1);
 
@@ -17,7 +17,7 @@ $primary: $pinkbird;
 $light: $pinkbird-light;
 $dark: $pinkbird-dark;
 
-$theme-colors: () !default;
+$theme-colors: ();
 $theme-colors: map-merge(
     (
     "primary":    $primary,
@@ -28,7 +28,7 @@ $theme-colors: map-merge(
 );
 
 // $component-active-color: $white !default;
-$component-active-bg: $primary;
+$component-active-bg: map-get($theme-colors, primary);
 
 // $input-btn-focus-width: .2rem;
 $input-btn-focus-color: rgba($component-active-bg, .5);

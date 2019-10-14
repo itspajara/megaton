@@ -9718,11 +9718,8 @@ header .dropdown-item.active, header .dropdown-item:active {
 }
 
 .card-img-top {
-  width: 400px;
-  height: 800px;
-  border-radius: 10%;
-  position: relative;
-  left: 100px;
+  object-fit: cover;
+  height: 200px;
 }
 
 /*# sourceMappingURL=styles.css.map */
